@@ -190,4 +190,3 @@
       (is-eq (get status proposal) "active")
       (< stacks-block-height (get expires-at proposal)))
     false))
-
