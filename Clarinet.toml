@@ -9,6 +9,17 @@ requirements = []
 path = 'contracts/procurement-system.clar'
 clarity_version = 3
 epoch = 3.1
+
+[contracts.multi-sig-governance]
+path = 'contracts/multi-sig-governance.clar'
+clarity_version = 3
+epoch = 3.1
+
+[contracts.supplier-performance]
+path = 'contracts/supplier-performance.clar'
+clarity_version = 3
+epoch = 3.1
+
 [repl.analysis]
 passes = ['check_checker']
 
